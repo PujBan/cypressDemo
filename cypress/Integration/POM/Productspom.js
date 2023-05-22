@@ -1,8 +1,8 @@
 class products{
 
     filter(){
-        cy.wait(60000)
-        cy.get('#header_container > div.header_secondary_container > div > span > select').select(1).invoke("val").should("eq","za")
+        cy.get('.product_sort_container').select('Name (Z to A)')
+        
     }
     addToCart(){
 

@@ -1,8 +1,5 @@
 class login{
     //Action methods
-    visit() {
-        cy.visit("https://www.saucedemo.com/")
-    }
     getUserName(value){
         const userName = cy.get('#user-name')
         userName.clear()

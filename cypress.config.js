@@ -8,7 +8,7 @@ module.exports = defineConfig({
     specPattern: 'cypress/Integration/examples/*.js',
     screenshotOnRunFailure: true,
     pageLoadTimeout: 50000,
-    defaultCommandTimeout: 6000,
+    //defaultCommandTimeout: 6000,
     chromeWebSecurity: false,
   },
 });
